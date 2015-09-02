@@ -1,0 +1,73 @@
+html{
+	height:100%;
+	width:100%;
+	margin:0px;
+	padding:0px;
+	overflow-x: hidden;
+}
+body{
+	background-image: url('mountain.jpg');
+	position: fixed;
+
+	background-repeat: no-repeat;
+
+	background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-webkit-background-size:cover;
+
+
+
+	height:100%;
+	width:100%;
+	margin:0px;
+	padding:0px;
+	overflow-x: hidden;
+
+}
+#one{
+
+	bottom:50%;
+	background: linear-gradient(
+		to right,
+		blue 15%,aqua 18%,green 33%,yellow 33%,orange 66.45%,red 33.66%);
+		)
+left:50%;
+	text-align: center;
+	width:100%;
+	position: fixed;
+
+	background-size: cover;
+
+	font-family: 'Poiret One';
+	font-weight: 600;
+	font-size: 50px;
+
+}
+#two{
+	color: inherit;
+}
+footer{
+	background-color: black;
+	height:20px;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	color:white;
+	font-family: 'Poiret One';
+	text-align: center;
+}
+
+a:link{
+	color:white;
+	font-style: normal;
+	font-variant: normal;
+	text-decoration: none;
+}
+
+a:visited{
+	color:red;
+}
+a:hover{
+	font-style: italic;
+}
