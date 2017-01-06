@@ -1,25 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
 	<head>
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 		<link rel="shortcut icon" href="favicon.ico">
-		<link href='http://fonts.googleapis.com/css?family=Poiret+One&subset=cyrillic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:100' rel='stylesheet' type='text/css'>
 		<meta name="Descripton" content="Jordan Chalupka Official Website">
-		<title>Jordan Chalupka Official Website</title>
+		<title>Jordan Chalupka</title>
+
+
+
 	</head>
 
 	<body>
-		<div id='one'>
+		<ul>
+		  <li><a a class="active" id='emailFoot' href="#homeID">Home</a></li>
+		  <li><a id='emailFoot' href="#aboutID">About</a></li>
+		  <li><a id='emailFoot' href="#contactID">Contact</a></li>
+		  <li><a id='emailFoot' href="#projectsID">Projects</a></li>
+		  <li><a id='emailFoot' href="#interestsID">Interests</a></li>
+		  <li><a id='emailFoot' href="#coolStuffID">Cool Stuff</a></li>
+		</ul>
+
+		<div id="homeID">
+			<div id="font">
+				<p>JORDAN CHALUPKA<br><small>Soft. Eng</small></p>
+				
+			</div>
+			<!--
 
 			<div id='two'>
-				Undergoing Changes </br> ~Construction Zone~
+            <a href="Resume.nov2015.pdf">
+                <button id="button1" type="button">Resume</button>
+            </a>
+			</div>
+			-->
+		</div>
+
+		<div id="holder">
+		<canvas id="game">
+			alert("Your browser does not support html5 canvas");
+		</canvas>
+			<div id="creditTag">
+				<p>Made By Jordan Chalupka</p>
 			</div>
 
 		</div>
+		<!--
+
+		<div id="canvas" style="z-index: 2">
+			<script src ="script.js" ></script>
+		</div>
+-->
+	<div id="about">
+		<p>About</p>
+
+		<!--<p>University of Guelph,<br> Software Engineering <br>Undergraduate</br><br>freelance <b>designer</b>, and <b>developer</b>.</p>-->
+
+		<p id="column">
+			I am currently a student at the University of Guelph completing my Undergraduate's degree in Software Engineering.  To compliment my major I am also pursuing a minor in Statistics.
+			</br>
+			Worked as an Administrative Support the Canadian Border Services Agency through the FSWEP.
+			</br>
+			Contributed to Course2iCal, an open source project allowing students at the University of Guelph to export their class schedules to iCal and other calendar programs.
+			</br>
+			Set up Google Analytics for several automotive dealerships in Florida, through upwork.com.
+		<p>
+
+
+	</div>
+
+	<div id="contactID">
+		<p>Contact By <a href="mailto:jchalupk@mail.uoguelph.ca?Subject=Contact Jordan Chalupka" id="email">email</a></p>
+		
+	</div>
+	<div id="projectsID">
+		<p>Projects</p>
+		<p>Sometimes I Make Cool Things.</p>
+	</div>
+
+	<div id="interestsID">
+		<p>Interests</p>
+		<p>Limiting Interest Limits Life.</p>
+	</div>
+
+	<div id="coolStuffID">
+		<p>Cool Stuff</p>
+	</div>
+
+
 
 	</body>
 	<footer>
-		<a href="mailto:jchalupk@mail.uoguelph.ca?Subject=start a shouting match" target="_top">have a shouting match</a>
+		<a href="mailto:jchalupk@mail.uoguelph.ca?Subject=Contact Jordan Chalupka" id="emailFoot">email</a>
 	</footer>
+
+		<script type="text/javascript" src="js/grid.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+
 </html>
