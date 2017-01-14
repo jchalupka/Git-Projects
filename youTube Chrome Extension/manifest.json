@@ -1,0 +1,23 @@
+{
+	"name": "youtube extension",
+	"author": "Jordan Chalupka",
+
+	"version": "1.0",
+	"manifest_version": 0.01,
+	"description": "Provides QR code linking to youtube video being watched.",
+	"homepage_url": "http://jchalupka.github.io",
+	"icons": {
+		"19": "icon19.png"
+	},
+	"content_scripts": [
+		{	
+			"matches":[
+				"https://www.youtube.com/watch*"
+			],
+			"js": ["test.js"]
+		}
+	],
+	"permissions": [
+		"storage"
+	]
+}
